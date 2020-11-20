@@ -4,5 +4,5 @@
       document.getElementById("demo").innerHTML = this.responseText;
     }
   };
-  xhttp.open("GET", "demo_get2.asp?fname=Henry&lname=Ford", true);
+  xhttp.open("GET", "http://mockbin.org/bin/620a74b4-6a33-48a5-9ef4-ccab5db4ac0b", true);
   xhttp.send();
